@@ -1,0 +1,131 @@
+.my-head {
+    height: 60px;
+
+}
+
+.my-body {
+    top: 60px;
+    width: 100%
+  }
+
+.my-aside {
+    position: fixed;
+    bottom: 0;
+    top: 60px;
+    border-right: solid 1px #e6e6e6;
+    z-index: 999;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 200px;
+}
+
+.my-aside:hover {
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+.my-aside-menu-span {
+    line-height: 56px;
+    font-size: 16px
+}
+
+.my-aside-menu-item {
+    padding-left: 80px
+}
+
+.my-aside-menu-item a {
+    color: rgb(66, 65, 65);
+    text-decoration: none;
+    display:block;
+}
+
+.my-main {
+    position: fixed;
+    right: 0px;
+    left: 200px;
+    overflow-y: scroll;
+    top: 60px;
+    bottom: 0px;
+    overflow-x: hidden;
+    display: true;
+}
+
+.my-main .el-container{
+    height: 100%;
+}
+
+.my-logo {
+    float: left;
+    line-height: 60px;
+    text-align: center;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+.my-user-logo {
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    line-height: 60px;
+    /* margin: 10px; */
+}
+
+.my-user-head {
+    display: inline-block;
+    /* float: right; */
+}
+.my-user-menu-left {
+    float: left;
+    display: inline-block;
+    margin-left: 50px;
+}
+.my-user-menu-right {
+    float: right;
+    display: inline-block;
+}
+
+.my-user-nickname {
+    font-size: 18px;
+}
+
+.my-col {
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04); */
+    margin: 10px;
+}
+
+.task-button-group {
+    float: right;
+}
+
+.my-form-submit {
+    text-align: center;
+}
+
+pre {
+  outline: 1px solid #ccc;
+  overflow-x: scroll;
+}
+
+pre .string {
+  color: green;
+}
+
+pre .number {
+  color: darkorange;
+}
+
+pre .boolean {
+  color: blue;
+}
+
+pre .null {
+  color: magenta;
+}
+
+pre .key {
+  color: red;
+}
